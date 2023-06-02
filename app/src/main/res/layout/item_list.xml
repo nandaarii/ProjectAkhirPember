@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/mainImg"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/emas1"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tvJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="coba"
+            android:layout_marginLeft="6dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvTerjual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 Terjual"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/tvHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="Rp.3.800.000"
+            android:textColor="@color/red_400"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
